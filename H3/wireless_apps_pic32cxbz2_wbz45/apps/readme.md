@@ -34,10 +34,10 @@ The following applications are provided to demonstrate the typical use case of B
 		* [Connection](ble/building_blocks/central/connection/readme.md)
 		* [Profiles and Services](ble/building_blocks/central/profiles_services/readme.md)
 		* [Transparent UART](ble/building_blocks/central/profiles_services/trp_uart/readme.md)
-		* [Transparent UART Multilink](ble/building_blocks/central/profiles_services/trp_uart/readme.md)
+		* [Transparent UART Multilink](ble/building_blocks/central/profiles_services/ml_trp_uart/readme.md)
 
 ### BLE Advanced Applications
-* [BLE Sensor App (Sleep)](ble/advanced_applications/ble_sensor_app/readme.md)
+* [BLE Sensor App](ble/advanced_applications/ble_sensor_app/readme.md)
 * [BLE UART Demo](ble/advanced_applications/ble_uart_demo/readme.md)
 
 ## Zigbee

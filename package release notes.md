@@ -2,9 +2,17 @@ Early Adopter Package Release Notes
    
 ## EA3 Release Package(BLE + Zigbee Support):  
 
-### current version 3.2.1 (02/05/2022)
+### current version 3.2.2 (02/25/2022)
 
 Changes since last Early Adopter package releases 
+
+- v3.2.2 (02/25/2022)
+  - [Documentation] Updated Datasheet with correct Max Tx Output Power  
+  - [Documentation] Removed Harmony framework related known issue as it is no longer applicable, added new Standby Mode limitation
+  - [Doucmentation] User guide updated with 3.0 V regulator related information
+  - [Documentation] Errata - New Errata related GPIO state in Deep Sleep and Extreme Deep Sleep Added
+  - [Documentation] Updated Product Brief with correct Max Tx Output Power
+  - [H3/wireless_apps_pic32cxbz2_wbz45] Corrected link to point user to right locations
 
 - v3.2.1 (02/05/2022)
   - [Documentation/PIC32CX-BZWBZ45x SDK Setup ] Updated SDK Setup to avoid Long File Path Issue 

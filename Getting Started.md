@@ -43,7 +43,7 @@ WBZ451 Curiosity Board comes pre-programmed with a Concurrent Multiprotocol (BLE
 
 ## Smartphone App - Microchip Bluetooth Data(MBD)
 
-- iOS and Android users can search for “Microchip Bluetooth Data” App in App Store and Google Play Store respectively to install the App
+- iOS and Android users can search for “Microchip Bluetooth Data” or "MBD" App in App Store and Google Play Store respectively to install the App
 
 ## Documentation
 
