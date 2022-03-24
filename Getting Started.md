@@ -39,7 +39,7 @@ WBZ451 Curiosity Board comes pre-programmed with a Concurrent Multiprotocol (BLE
 	- **Multiprotocol (BLE + Zigbee)**
 		- [BLE and Zigbee Basic App](H3/wireless_apps_pic32cxbz2_wbz45/apps/multiprotocol/ble_zigbee_basic)
 		- [Zigbee Light Provisioning over BLE](H3/wireless_apps_pic32cxbz2_wbz45/apps/multiprotocol/ble_zigbee_light_prov)
-		- [Zigbee Multisensor Provisioning over BLE](H3/wireless_apps_pic32cxbz2_wbz45/apps/multiprotocol/ble_zigbee_multiSensor_prov)
+		- [Zigbee Multisensor Provisioning over BLE](H3/wireless_apps_pic32cxbz2_wbz45/apps/multiprotocol/sensor_prov)
 
 ## Smartphone App - Microchip Bluetooth Data(MBD)
 

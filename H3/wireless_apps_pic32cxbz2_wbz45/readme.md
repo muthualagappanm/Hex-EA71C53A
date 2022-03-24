@@ -56,7 +56,7 @@ The following applications are provided to demonstrate the typical use case of o
 | --- | :---: | :---: |
 | [Multiprotocol BLE and Zigbee Basic](apps/multiprotocol/ble_zigbee_basic/readme.md) | PIC32CX-BZ | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic)
 | [Multiprotocol Zigbee Light Provisioning over BLE](apps/multiprotocol/ble_zigbee_light_prov/readme.md) | PIC32CX-BZ | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
-| [Multiprotocol Zigbee Multisensor Provisioning over BLE](apps/multiprotocol/ble_zigbee_multiSensor_prov/readme.md) | PIC32CX-BZ | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
+| [Multiprotocol Zigbee Multisensor Provisioning over BLE](apps/multiprotocol/sensor_prov/readme.md) | PIC32CX-BZ | ![app-beta](https://img.shields.io/badge/application-beta-orange?style=plastic) |
 
 ____
 

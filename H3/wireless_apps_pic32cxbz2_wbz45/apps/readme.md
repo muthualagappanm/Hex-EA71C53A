@@ -48,4 +48,4 @@ The following applications are provided to demonstrate the typical use case of B
 ## Multiprotocol (BLE + Zigbee)
 * [Multiprotocol BLE and Zigbee Basic ](multiprotocol/ble_zigbee_basic/readme.md)
 * [Multiprotocol Zigbee Light Provisioning over BLE ](multiprotocol/ble_zigbee_light_prov/readme.md)
-* [Multiprotocol Zigbee Multisensor Provisioning over BLE ](multiprotocol/ble_zigbee_multiSensor_prov/readme.md)
+* [Multiprotocol Zigbee Multisensor Provisioning over BLE ](multiprotocol/sensor_prov/readme.md)
