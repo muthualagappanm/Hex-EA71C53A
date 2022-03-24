@@ -2,9 +2,15 @@ Early Adopter Package Release Notes
    
 ## EA3 Release Package(BLE + Zigbee Support):  
 
-### current version 3.2.2 (02/25/2022)
+### current version 3.2.3 (03/23/2022)
 
-Changes since last Early Adopter package releases 
+Changes since last Early Adopter package releases
+
+- v3.2.3 (03/23/2022)
+  - [Documentation] Updated SDK Setup Documentation with Exclude kit checks information and more information on MCC component versions
+  - [Documentation] Updated Out of Box Demo App example with Microchip Bluetooth Data Smartphone App installation instructions
+  - [Doucmentation] Updated Known Issues document with new reported MCC related issues
+  - renamed "ble_zigbee_multiSensor_prov" folder in Multiprotocol Apps to "sensor_prov"
 
 - v3.2.2 (02/25/2022)
   - [Documentation] Updated Datasheet with correct Max Tx Output Power  
