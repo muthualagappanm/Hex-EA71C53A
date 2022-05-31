@@ -19,10 +19,11 @@ WBZ451 Curiosity Board comes pre-programmed with a Concurrent Multiprotocol (BLE
 
 ## Software
 
-1. MPLABx IDE v5.50 - Available in [IDE](MPLAB%20X%20IDE) folder
-2. XC32 Compiler v3.01 – Available in [Compiler](Compiler) folder
-3. MPLAB Harmony 3 Configurator and MPLAB Harmony Framework Setup for PIC32CX-BZ/WBZ45x – Instructions available in [PIC32CX-BZWBZ45x SDK Setup.pdf](Documentation/PIC32CX-BZWBZ45x%20SDK%20Setup.pdf)
-4. Application Examples – Instructions to build and program an application example available in Section 7 of [PIC32CX-BZWBZ45x SDK Setup.pdf](Documentation/PIC32CX-BZWBZ45x%20SDK%20Setup.pdf)
+1. MPLABx IDE - Available in [IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+2. XC32 Compiler – Available in [Compiler](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
+3. **Caution** Check if Kit Update required - [Kit Update](Documentation/Updating%20WBZ451%20Curiosity%20board%20Kit%20Info%20to%20work%20with%20MPLAB%20x%20IDE.pdf)
+3. MPLAB Code Configurator and Development Environment Setup for PIC32CX-BZ/WBZ45x – Instructions available in [PIC32CX-BZWBZ45x SDK Setup.pdf](Documentation/PIC32CX-BZWBZ45x%20SDK%20Setup.pdf)
+4. Application Examples – Instructions to build and program an application example available in [PIC32CX-BZWBZ45x SDK Setup.pdf](Documentation/PIC32CX-BZWBZ45x%20SDK%20Setup.pdf)
 	- **BLE**
 
 		- [BLE Advanced Applications](H3/wireless_apps_pic32cxbz2_wbz45/apps/ble/advanced_applications/ble_uart_demo)
@@ -65,11 +66,11 @@ WBZ451 Curiosity Board comes pre-programmed with a Concurrent Multiprotocol (BLE
 - Zigbee Stack API Guide – Available [here](H3/wireless/driver/zigbee/docs/html/modules.html) <sup>html</sup>
 - Application Examples Help Available – [here](H3/wireless_apps_pic32cxbz2_wbz45/docs/apps/readme.html) <sup>html</sup>
 - Known Issues related to Package, SDK, Tools, feature implementations listed [here](Documentation/Known%20Issues.pdf)
-- Harmony 3 PIC32CX_BZ Peripheral Library Help [here](https://microchip-mplab-harmony.github.io/csp/05544.html)
+- Harmony PIC32CX_BZ Peripheral Library Help [here](https://microchip-mplab-harmony.github.io/csp/05544.html)
 
 **Note** links superscripted as "html" can only be viewed when the package is cloned locally
 
-### Migrating from EA3.1.x to EA3.2 Package
+### Migrating from EA3.1.x to EA3.3 Package
 
 - [Migration Guide](Documentation/Migration%20Guide_EA3_1_x%20package%20to%20EA3_2%20package.pdf)
 

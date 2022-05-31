@@ -70,7 +70,7 @@
 #define DIS_MODEL_NUM                                  "Coming Soon"
 #define DIS_SERIAL_NUM                                 "Serial Number"
 #define DIS_HW_REVISION                                "Hardware Revision"
-#define DIS_FW_REVISION                                "0.7.3.2"
+#define DIS_FW_REVISION                                "0.7.3.3"
 #define DIS_SW_REVISION                                "Software"
 #define DIS_SYSTEM_ID                                  "System Id"
 #define DIS_IEEE_11073_20601                           "NULL"

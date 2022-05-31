@@ -1,4 +1,4 @@
-<config configName="default" projectName="ble_custom_service_button_led_wbz451" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.3.3">
+<config configName="default" projectName="ble_custom_service_button_led_wbz451" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -71,7 +71,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -7155,7 +7155,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\clk\plib_clk.c</file>
-         <hash>152818abe4889686d9df5f8f1c26db9068f3266fb723f56bf5977c8081ee62ef</hash>
+         <hash>0925a42a300376a0c0130e0894c639adb4f46d7364a28aa22adf24b28dc3c4d8</hash>
       </entry>
       <entry>
          <file>..\src\packs\WBZ451_DFP\component\dmac.h</file>
@@ -7203,7 +7203,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\definitions.h</file>
-         <hash>72b619be60196f3b3a1a4aff524f3a94fbfacadd00d6e7b2c799927d9ca15997</hash>
+         <hash>2d4a260487a18c4f37a2cd93b99ab45473f7047e2666ad85fc85335de6100dac</hash>
       </entry>
       <entry>
          <file>..\src\packs\WBZ451_DFP\instance\tc3.h</file>
@@ -7431,7 +7431,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\initialization.c</file>
-         <hash>efbe1ed09d0c36f6ba6b8e10cd312cd873507dd83a1e6bda1e4c62651cc34936</hash>
+         <hash>dc61782f91ccc147470222a7e1a3bb7d0e688a8d0f529625d35fd5c928796b7d</hash>
       </entry>
       <entry>
          <file>..\src\packs\WBZ451_DFP\component\pche.h</file>
@@ -7511,7 +7511,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\startup_xc32.c</file>
-         <hash>4925c57b172987921a52aa8b0c1ce442b8743e2376df3e7d356d45d2a11c18f9</hash>
+         <hash>2605492040cd0f0a67581a3e23e854cc2660fd2ba4abcb0f4568af8b4371526a</hash>
       </entry>
       <entry>
          <file>..\src\packs\WBZ451_DFP\wbz451.h</file>

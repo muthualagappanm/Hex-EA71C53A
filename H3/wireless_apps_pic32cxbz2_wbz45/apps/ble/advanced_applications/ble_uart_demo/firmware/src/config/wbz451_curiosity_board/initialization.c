@@ -263,7 +263,13 @@ void SYS_Initialize ( void* data )
 
     GPIO_Initialize();
 
+    SERCOM1_USART_Initialize();
+
     EVSYS_Initialize();
+
+    SERCOM0_USART_Initialize();
+
+    DMAC_Initialize();
 
     EIC_Initialize();
 

@@ -417,29 +417,7 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
-      <logicalFolder name="f1" displayName="default.mhc" projectFiles="true">
-        <itemPath>../src/config/default/default.mhc/BSP_WBZ451_Curiosity.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/cmsis.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/core.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/eic.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/evsys.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/FreeRTOS.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/HarmonyCore.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/libBLEStack.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/nvm.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/pdsSystem.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/pic32cx_bz2_devsupport.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/project.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/rtc.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/sercom0.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/settings.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/svcBLE_CMS.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/sys_console.yml</itemPath>
-      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/default/harmony-manifest-success.yml</itemPath>
       <itemPath>ble_custom_service_button_led_wbz451.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>
@@ -503,7 +481,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="..\src\app_ble;..\src\config\default\ble\lib\include;..\src\config\default\ble\middleware_ble;..\src\config\default\driver\pds\include;..\src\config\default\ble\profile_ble;..\src\config\default\ble\service_ble;../src;../src/config/default;../src/packs/WBZ451_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;../src/third_party/rtos/FreeRTOS/Source/include;;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F;;"/>
+                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ451_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F;..\src\app_ble;..\src\config\default\ble\lib\include;..\src\config\default\ble\middleware_ble;..\src\config\default\ble\profile_ble;..\src\config\default\ble\service_ble;..\src\config\default\driver\pds\include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -580,7 +558,7 @@
         <property key="no-startup-files" value="false"/>
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
-        <property key="preprocessor-macros" value=";"/>
+        <property key="preprocessor-macros" value=""/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
@@ -603,7 +581,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/packs/WBZ451_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F;;"/>
+                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ451_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>

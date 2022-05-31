@@ -24,6 +24,7 @@ function: Zigbee
 + Multiple read attribute for a given cluster support in the stack.
 + Response callback addition in zigbee application handler file for all ZDO commands.
 + EA3 Feeback, bugs and enhancements.
++ Fixed the component unloading/missing issue, use MCC v5.1.4 and above 
 
 ### Known Issues
 + Zigbee Mesh is not run on a larger node bed / test to verify/fine tune  Netowrk traffic / Mising Acks / Retries.

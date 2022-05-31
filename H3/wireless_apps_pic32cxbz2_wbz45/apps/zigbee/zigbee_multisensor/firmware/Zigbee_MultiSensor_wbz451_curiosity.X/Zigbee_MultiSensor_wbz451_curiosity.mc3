@@ -1,4 +1,4 @@
-<config configName="Zigbee_MultiSensor_wbz451_curiosity" projectName="Zigbee_MultiSensor_wbz451_curiosity" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.3.3">
+<config configName="Zigbee_MultiSensor_wbz451_curiosity" projectName="Zigbee_MultiSensor_wbz451_curiosity" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -63,7 +63,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -474,8 +474,7 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;GraphSettings canvasHeight=&quot;672&quot; canvasWidth=&quot;541&quot; dnOrder=&quot;0&quot;/&gt;
-    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;FreeRTOS&quot; x=&quot;30&quot; y=&quot;320&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;HarmonyCore&quot; x=&quot;190&quot; y=&quot;340&quot;/&gt;
@@ -494,6 +493,7 @@
         &lt;ElementPosition dnOrder=&quot;14&quot; id=&quot;trng&quot; x=&quot;290&quot; y=&quot;60&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
+    &lt;GraphSettings canvasHeight=&quot;672&quot; canvasWidth=&quot;541&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -4653,7 +4653,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\types.h</file>
-         <hash>505233e313d79ecc0845fc65c083e261c3b38177d5b2daf16cd271ca8cb3321c</hash>
+         <hash>eb1d62cdb2b2480abb2acf7168a57e93000347feb18aa2f6cb162cbfb89a655e</hash>
       </entry>
       <entry>
          <file>..\src\config\Zigbee_MultiSensor_wbz451_curiosity\zigbee\lib\include\mac_phy\mac_env\include\macenvMem.h</file>
@@ -5297,7 +5297,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\ecc.h</file>
-         <hash>6675a017bcdb4ff8ff036942e59b3906d0db717dc793280db4acc9857596c09d</hash>
+         <hash>de7569f8a84494e2a0255405c7ea078831b43bc910c59e43bbe108271b7d7009</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\md2.h</file>
@@ -5317,7 +5317,7 @@
       </entry>
       <entry>
          <file>..\src\config\Zigbee_MultiSensor_wbz451_curiosity\peripheral\clk\plib_clk.c</file>
-         <hash>503b21e3140e00e7be3258edfa480ae464f4943faf0177315621b6821c424ea8</hash>
+         <hash>124eee7d12bd71bbd3d7e7afe34a26dd84854435c188f97dca3af8c07a2a9753</hash>
       </entry>
       <entry>
          <file>..\src\config\Zigbee_MultiSensor_wbz451_curiosity\zigbee\zigbee_device\devicetypes\multiSensor\src\osGroupsCluster.c</file>
@@ -5361,7 +5361,7 @@
       </entry>
       <entry>
          <file>..\src\config\Zigbee_MultiSensor_wbz451_curiosity\startup_xc32.c</file>
-         <hash>4925c57b172987921a52aa8b0c1ce442b8743e2376df3e7d356d45d2a11c18f9</hash>
+         <hash>2605492040cd0f0a67581a3e23e854cc2660fd2ba4abcb0f4568af8b4371526a</hash>
       </entry>
       <entry>
          <file>..\src\config\Zigbee_MultiSensor_wbz451_curiosity\zigbee\zigbee_systemresource\hal\cortexm4\common\src\sleep.c</file>
@@ -6481,7 +6481,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\settings.h</file>
-         <hash>0131d22c9c73278c8123f7efcadf514e85ccb95cd61dbe7a40976de10800b2d0</hash>
+         <hash>86a92896cc09608435ffe0d78f4aa3421fb5f19a5675761070d1e9c85ad22de8</hash>
       </entry>
       <entry>
          <file>..\src\config\Zigbee_MultiSensor_wbz451_curiosity\zigbee\lib\include\zllplatform\ZLL\N_Security\include\N_Security_Calc.h</file>
@@ -7889,7 +7889,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\ecc.c</file>
-         <hash>5c6bf27ad4e4ca225d13a6418c1eaaee7a6e7a7a2fa6779a073b556474c882bf</hash>
+         <hash>830b4458643d6fa4a1fe9aafba00c1bd4a40a1ea22ed9be85e26c84335364276</hash>
       </entry>
       <entry>
          <file>..\src\config\Zigbee_MultiSensor_wbz451_curiosity\zigbee\zigbee_device\common\include\otauService.h</file>

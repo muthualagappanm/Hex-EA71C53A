@@ -48,18 +48,19 @@ def handleMessage(messageID, args):
     '''
     if(messageID == 'ANTENNA_GAIN_CHANGE'):
         component = Database.getComponentByID(args['target'])
-        customGainEnabled = component.getSymbolByID('USE_CUSTOM_ANT_GAIN')
-        customGainValue = component.getSymbolByID('CUSTOM_ANT_GAIN')
-        customRegion = component.getSymbolByID('CUSTOM_ANT_REGION')
-        Log.writeInfoMessage('{:<17}: Handling - target={}'.format('drv_zigbee_lib.py', args['target']))
-        for arg in args:
-            Log.writeInfoMessage('{:<17}: {}: {}'.format('', arg, args[arg]))
-            if('CUSTOM_ANT_ENABLE' == arg):
-                customGainEnabled.setValue(args[arg])
-            if('CUSTOM_ANT_GAIN' == arg):
-                customGainValue.setValue(args[arg])
-            if('CUSTOM_ANT_REGION' == arg):
-                customRegion.setValue(args[arg])
+        if (component):
+            customGainEnabled = component.getSymbolByID('USE_CUSTOM_ANT_GAIN')
+            customGainValue = component.getSymbolByID('CUSTOM_ANT_GAIN')
+            customRegion = component.getSymbolByID('CUSTOM_ANT_REGION')
+            Log.writeInfoMessage('{:<17}: Handling - target={}'.format('drv_zigbee_lib.py', args['target']))
+            for arg in args:
+                Log.writeInfoMessage('{:<17}: {}: {}'.format('', arg, args[arg]))
+                if('CUSTOM_ANT_ENABLE' == arg):
+                    customGainEnabled.setValue(args[arg])
+                if('CUSTOM_ANT_GAIN' == arg):
+                    customGainValue.setValue(args[arg])
+                if('CUSTOM_ANT_REGION' == arg):
+                    customRegion.setValue(args[arg])
 
 def instantiateComponent(drvZigbeeComponent):
     print('ZIGBEE Driver Component')
@@ -89,19 +90,20 @@ def instantiateComponent(drvZigbeeComponent):
     #result2 = Database.connectDependencies([['lib_crypto', 'LIB_CRYPTO_WOLFCRYPT_Dependency', 'lib_wolfcrypt', 'lib_wolfcrypt']])
 
     remoteComponent = Database.getComponentByID("trng")
-    print('Printing TRNG remoteComponent Value')    
-    print(remoteComponent)
-    symbol = remoteComponent.getSymbolByID("trngEnableInterrupt")
-    symbol1 = remoteComponent.getSymbolByID("trngEnableEvent")
-    symbol2 = remoteComponent.getSymbolByID("TRNG_STANDBY")
-    print('Printing TRNG Symbol Value')
-    print(symbol)
-    symbol.setReadOnly(True)
-    symbol1.setReadOnly(True)
-    symbol2.setReadOnly(True)
-    #Database.setSymbolValue("trng", "trngEnableInterrupt", True)
-    #Database.setSymbolValue("trng", "trngEnableEvent", True)
-    #Database.setSymbolValue("trng", "TRNG_STANDBY", True)
+    if(remoteComponent):
+        print('Printing TRNG remoteComponent Value')    
+        print(remoteComponent)
+        symbol = remoteComponent.getSymbolByID("trngEnableInterrupt")
+        symbol1 = remoteComponent.getSymbolByID("trngEnableEvent")
+        symbol2 = remoteComponent.getSymbolByID("TRNG_STANDBY")
+        print('Printing TRNG Symbol Value')
+        print(symbol)
+        symbol.setReadOnly(True)
+        symbol1.setReadOnly(True)
+        symbol2.setReadOnly(True)
+        #Database.setSymbolValue("trng", "trngEnableInterrupt", True)
+        #Database.setSymbolValue("trng", "trngEnableEvent", True)
+        #Database.setSymbolValue("trng", "TRNG_STANDBY", True)
     Database.setSymbolValue("core", "AES_CLOCK_ENABLE", True)
     Database.setSymbolValue("core", "ZIGBEE_CLOCK_ENABLE", True)
     Database.setSymbolValue("core", "CONFIG_SCOM0_HSEN", "DIRECT")

@@ -1,4 +1,4 @@
-# EA3.2
+# EA3
 
 Early Adopter 3 Package for PIC32CX_BZ2 and WBZ45x Family of devices
 
@@ -6,22 +6,28 @@ This package has the necessary application examples, peripheral libraries, drive
 
 ## Clone Repo
 
-- Download and install git bash - <https://git-scm.com/>
+- Download and install git bash - <https://git-scm.com/> 
 
-- clone repo using command: git clone <https://github.com/MicrochipTech/EA71C53A.git>
 
-**Note 1** - Users must clone this repository in the root directory (maximum 1 level/folder deep), for example C:/<folder_name> (folder_name should not exceed 4 letters)
+- clone repo using command (see Notes below before cloning):
+```
+git clone https://github.com/MicrochipTech/EA71C53A.git
+```
 
-**Note 2** - Users must clone using git command line tool, Users should not download and extract the package as a zip folder.
+**Note 1** - Users **must** clone this repository in the root directory (maximum 1 level/folder deep), for example C:/<folder_name> (folder_name should not exceed 4 letters)
 
-Note 1 and 2 are added to avoid a known issue of Maximum File Path, see [here](https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=cmd) for more information
+**Note 2** - Users **must** clone using git command line tool, Users **should not** download and extract the package as a zip folder.
+
+| Note 1 and 2 are added to avoid a known issue of Maximum File Path, see [here](https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=cmd) for more information |
+| --- |
+
+
 
 ## Files and Folder Contents
 
 | File/Folder             | Contents                                                                               |
 |-------------------------|-------------------------------------------------------------------------------------------------|
 | MPLAB X IDE             | IDE for Software Development and Device Support Part Pack                                       |
-| Compiler                | Compiler for building MPLAB X IDE projects                                                      |
 | H3                   | BLE and Zigbee Application Examples, Peripheral Libraries, System, BLE and Zigbee Stack Support |
 | Documentaion            | Datasheet, Errata, Schematic, Product Brief, Known Issues, Mchp Transparent UART Documents      |
 | clk_pic32cx_bz          | Clock changes for sleep mode, instructions in SDK setup available in Documentation folder       |  
@@ -33,4 +39,4 @@ Note 1 and 2 are added to avoid a known issue of Maximum File Path, see [here](h
 
 Getting Started.md documents all the necessary tools, frameworks, documentation required to get started with BLE and Zigbee development using the WBZ451 Curiosity Board.
 
-*recommended* - markdown viewer as an extension to browser for offline mark down viewing purposes  
+**recommended** - [markdown viewer](https://chrome.google.com/webstore/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk?hl=en) as an extension to chrome browser for offline mark down viewing purposes  

@@ -153,7 +153,7 @@ This section explains the steps required by a user to develop this application e
 
    - Click on Window->MCC->Harmony->Clock Configuration
 
-   ![](media/sleep_mode_clock.jpg)
+   ![](media/sleep_mode_clock.PNG)
 
    - Enable SOSC clock
 

@@ -1,4 +1,4 @@
-<config configName="wbz451_curiosity_board" projectName="ble_uart_app_wbz451_curiosity_board" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.3.3">
+<config configName="wbz451_curiosity_board" projectName="ble_uart_app_wbz451_curiosity_board" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -83,7 +83,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -5278,7 +5278,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\definitions.h</file>
-         <hash>82cfe6a24e454110a197892058eefba6e89715741606e79468380609e1cfb64e</hash>
+         <hash>a51da6971bcb2e753e6068b96fbe58e0254ae866a5d3b846804d765bf13817e3</hash>
       </entry>
       <entry>
          <file>..\src\packs\WBZ451_DFP\component\rcon.h</file>
@@ -5314,7 +5314,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\peripheral\clk\plib_clk.c</file>
-         <hash>320964e68a30b8ce7eed4dbb6179387e78b6098854a5c506fb26851247675cdf</hash>
+         <hash>076c697e4c312efbce7716bf8be53bb7123aa1d4cf1d42355c55f687284545cc</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\ble\service_ble\ble_dis\ble_dis.h</file>
@@ -5410,7 +5410,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\startup_xc32.c</file>
-         <hash>4925c57b172987921a52aa8b0c1ce442b8743e2376df3e7d356d45d2a11c18f9</hash>
+         <hash>2605492040cd0f0a67581a3e23e854cc2660fd2ba4abcb0f4568af8b4371526a</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\peripheral\clk\plib_clk.h</file>

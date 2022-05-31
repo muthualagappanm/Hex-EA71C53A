@@ -1,14 +1,14 @@
-configName: default
-folderName: ble_legacy_scan_wbz451_curiosity
 format_version: v1.0
-frameworkPath: ..\..\..\..\H3_Framework
+configName: default
+folderName: ble_legacy_scan_wbz451
+frameworkPath: C:\mchp
 processor: WBZ451
-projectName: ble_legacy_scan_wbz451_curiosity
+projectName: ble_legacy_scan_wbz451
 settings:
-  PackageFilter: bsp;core;crypto;csp;dev_packs;wireless
+  PackageFilter: ''
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'
-  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\PIC32CX-BZ_DFP\1.0.80\WBZ451\atdf\WBZ451.atdf
+  DFPPath: dev_packs\Microchip\PIC32CX-BZ_DFP\1.0.80\WBZ451\atdf\WBZ451.atdf

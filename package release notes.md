@@ -2,9 +2,23 @@ Early Adopter Package Release Notes
    
 ## EA3 Release Package(BLE + Zigbee Support):  
 
-### current version 3.2.3 (03/23/2022)
+### current version 3.3 (04/28/2022)
 
 Changes since last Early Adopter package releases
+
+- v3.3 (05/21/2022)
+  - [Compiler] Removed Compiler Folder, instructions for compiler added to SDK Setup document 
+  - [IDE] Removed MPLAB X IDE.pdf document, MPLAB X IDE folder has the Device Part Pack 
+  - [Documentation] Updated SDK setup documentation to use latest versions of IDE, Compiler, MPLAB Code Configurator and Harmony components. Added a new "Troubleshooting" section for common issues reported
+  - [Documentation] known Issues document updated to remove MCC configuration related issues, MCC related issues are resolved by using new version of MCC plugin and new stack(H3/wireless) part of this package
+  - [OOBE BLE Zigbee App.pdf] Updated demo instructions, added more information as needed
+  - [Win Tools] Replaced the empty zip file with correct win tool 
+  - [H3/wireless_apps_pic32cxbz2_wbz45] Updated all app examples using latest Harmony Components and tool chain
+  - [Documentation] Added instructions for updating the configuration on WBZ451 Curiosity Board with correct device name and updated IDE support
+  - [H3/wireless] Updated stack to resolve MPLAB Code Configurator(MCC) component drop issue associated with Zigbee and Multiprotocol Apps
+  - [Documentation/known Issues.pdf] Leakage current observed on a small set of boards, due to incorrect BOM used
+  - [Documentation/Schematic] Updated schematics of the board, fixes incorrect voltage regulator used for module supply and other minor issues  
+
 
 - v3.2.3 (03/23/2022)
   - [Documentation] Updated SDK Setup Documentation with Exclude kit checks information and more information on MCC component versions

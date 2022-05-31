@@ -679,8 +679,9 @@ def finalizeComponent(libBTZBCore):
 
     print("Setting 'Memory Management Type' to 'Heap_4'")
     remoteComponent = Database.getComponentByID("FreeRTOS")
-    memoryManagementChoice = remoteComponent.getSymbolByID("FREERTOS_MEMORY_MANAGEMENT_CHOICE")
-    memoryManagementChoice.setValue('Heap_4')
+    if(remoteComponent):
+        memoryManagementChoice = remoteComponent.getSymbolByID("FREERTOS_MEMORY_MANAGEMENT_CHOICE")
+        memoryManagementChoice.setValue('Heap_4')
 
 
 def onAttachmentConnected(source, target):
@@ -744,8 +745,9 @@ def handleRTC_Support(args):
 
     # locate the SLEEP_SUPPORTED symbols in the Database
     localComponent = Database.getComponentByID(args['target'])
-    localComponentID = localComponent.getID()
-    rtcRequiredSymbol = localComponent.getSymbolByID('SLEEP_SUPPORTED')
+    if (localComponent):
+        localComponentID = localComponent.getID()
+        rtcRequiredSymbol = localComponent.getSymbolByID('SLEEP_SUPPORTED')
 
     Log.writeInfoMessage('device_support:handleRTC_Support target ID = {}'.format(localComponentID))
 

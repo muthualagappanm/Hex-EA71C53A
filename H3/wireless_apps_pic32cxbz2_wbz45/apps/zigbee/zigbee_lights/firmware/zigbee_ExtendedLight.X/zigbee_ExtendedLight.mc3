@@ -1,4 +1,4 @@
-<config configName="wbz451_curiosity_board" projectName="zigbee_ExtendedLight" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.3.3">
+<config configName="wbz451_curiosity_board" projectName="zigbee_ExtendedLight" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -83,7 +83,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -7363,7 +7363,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\types.h</file>
-         <hash>505233e313d79ecc0845fc65c083e261c3b38177d5b2daf16cd271ca8cb3321c</hash>
+         <hash>eb1d62cdb2b2480abb2acf7168a57e93000347feb18aa2f6cb162cbfb89a655e</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\dh.c</file>
@@ -8079,7 +8079,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\ecc.h</file>
-         <hash>6675a017bcdb4ff8ff036942e59b3906d0db717dc793280db4acc9857596c09d</hash>
+         <hash>de7569f8a84494e2a0255405c7ea078831b43bc910c59e43bbe108271b7d7009</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\md2.h</file>
@@ -8263,7 +8263,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\definitions.h</file>
-         <hash>331edcedc3e47d9b3205c7a34ec0063f06064309214fe840bd9be5330edec232</hash>
+         <hash>c410d75049ed6a01c2432db4e3048f8340dbb56ab297ad09f4c6b4187e258d7c</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\zigbee\zigbee_device\common\src\pic32cxBSP.c</file>
@@ -9167,7 +9167,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\peripheral\clk\plib_clk.c</file>
-         <hash>2ff747ec2242e8485f385af17ccd21f0afbc90445c62963ecc04487d392e15c1</hash>
+         <hash>7af354682443ac3bb5920e8c26d6f07ed1c3524ff1821c2ef0f4d16db37840c7</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\port\pic32\CryptoLib_ExpMod_pb.h</file>
@@ -9179,7 +9179,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\initialization.c</file>
-         <hash>e5507b6124cf0f5fc1da6c94852c47c5cb7fa6eaddab4c9b5a58cc1cb4f4ba66</hash>
+         <hash>5b1bb0f55f272c96d11e33b52cfde1a0c6a496e1676ded5407e1850215a5e6b8</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\zigbee\lib\include\mac_phy\include\macScan.h</file>
@@ -9199,7 +9199,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\settings.h</file>
-         <hash>0131d22c9c73278c8123f7efcadf514e85ccb95cd61dbe7a40976de10800b2d0</hash>
+         <hash>86a92896cc09608435ffe0d78f4aa3421fb5f19a5675761070d1e9c85ad22de8</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\zigbee\lib\include\zcl\include\zclAlarmsCluster.h</file>
@@ -9243,7 +9243,7 @@
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\startup_xc32.c</file>
-         <hash>4925c57b172987921a52aa8b0c1ce442b8743e2376df3e7d356d45d2a11c18f9</hash>
+         <hash>2605492040cd0f0a67581a3e23e854cc2660fd2ba4abcb0f4568af8b4371526a</hash>
       </entry>
       <entry>
          <file>..\src\config\wbz451_curiosity_board\zigbee\lib\include\nwk\include\private\nwkFrame.h</file>
@@ -10326,12 +10326,12 @@
          <hash>39795c8dded505f24f53646ecd8192251851c74f366d2a5b0aae3fbfa68c191b</hash>
       </entry>
       <entry>
-         <file>..\src\config\wbz451_curiosity_board\peripheral\tcc\plib_tcc2.h</file>
-         <hash>5a5f79727799d28a3bedf69b1d9462ba97606845a3da0bb9412dc1a2a578e418</hash>
-      </entry>
-      <entry>
          <file>..\src\config\wbz451_curiosity_board\zigbee\lib\include\zllplatform\infrastructure\N_ErrH\include\N_ErrH.h</file>
          <hash>eb0393fe5edf9125d31bb68a3bc5f6d6832baac27d141ca08f930006b921aab8</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\wbz451_curiosity_board\peripheral\tcc\plib_tcc2.h</file>
+         <hash>5a5f79727799d28a3bedf69b1d9462ba97606845a3da0bb9412dc1a2a578e418</hash>
       </entry>
       <entry>
          <file>..\src\packs\WBZ451_DFP\component\ccl.h</file>
@@ -10659,7 +10659,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\ecc.c</file>
-         <hash>5c6bf27ad4e4ca225d13a6418c1eaaee7a6e7a7a2fa6779a073b556474c882bf</hash>
+         <hash>830b4458643d6fa4a1fe9aafba00c1bd4a40a1ea22ed9be85e26c84335364276</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\curve25519.c</file>

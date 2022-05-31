@@ -1,4 +1,4 @@
-<config configName="default" projectName="ble_zigbee_basic" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.3.3">
+<config configName="default" projectName="ble_zigbee_basic" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -83,7 +83,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -6469,7 +6469,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\types.h</file>
-         <hash>505233e313d79ecc0845fc65c083e261c3b38177d5b2daf16cd271ca8cb3321c</hash>
+         <hash>eb1d62cdb2b2480abb2acf7168a57e93000347feb18aa2f6cb162cbfb89a655e</hash>
       </entry>
       <entry>
          <file>..\src\config\default\ble\lib\include\bt_sys.h</file>
@@ -6553,7 +6553,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\peripheral\clk\plib_clk.c</file>
-         <hash>6db225eeb048887fe6a311d4f67be0661f8d46295e847e5b29c2ad437bac168a</hash>
+         <hash>93056aba47771bdc5aaeed4516a6722dc128d8640dd7ae6a92165f5d1eba9785</hash>
       </entry>
       <entry>
          <file>..\src\config\default\configuration.h</file>
@@ -7225,7 +7225,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\ecc.h</file>
-         <hash>6675a017bcdb4ff8ff036942e59b3906d0db717dc793280db4acc9857596c09d</hash>
+         <hash>de7569f8a84494e2a0255405c7ea078831b43bc910c59e43bbe108271b7d7009</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\md2.h</file>
@@ -8473,7 +8473,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\settings.h</file>
-         <hash>0131d22c9c73278c8123f7efcadf514e85ccb95cd61dbe7a40976de10800b2d0</hash>
+         <hash>86a92896cc09608435ffe0d78f4aa3421fb5f19a5675761070d1e9c85ad22de8</hash>
       </entry>
       <entry>
          <file>..\src\config\default\zigbee\lib\include\zcl\include\zclDiagnosticsCluster.h</file>
@@ -9865,7 +9865,7 @@
       </entry>
       <entry>
          <file>..\src\config\default\startup_xc32.c</file>
-         <hash>4925c57b172987921a52aa8b0c1ce442b8743e2376df3e7d356d45d2a11c18f9</hash>
+         <hash>2605492040cd0f0a67581a3e23e854cc2660fd2ba4abcb0f4568af8b4371526a</hash>
       </entry>
       <entry>
          <file>..\src\config\default\zigbee\lib\include\zllplatform\infrastructure\N_Log\include\N_Log.h</file>
@@ -10093,7 +10093,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\ecc.c</file>
-         <hash>5c6bf27ad4e4ca225d13a6418c1eaaee7a6e7a7a2fa6779a073b556474c882bf</hash>
+         <hash>830b4458643d6fa4a1fe9aafba00c1bd4a40a1ea22ed9be85e26c84335364276</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\curve25519.c</file>

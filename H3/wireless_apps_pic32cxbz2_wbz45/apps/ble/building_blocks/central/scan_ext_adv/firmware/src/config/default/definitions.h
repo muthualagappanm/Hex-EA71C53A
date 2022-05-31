@@ -65,8 +65,8 @@
 #include "driver/device_support/include/sleep_system.h"
 #include "framework_defs.h"
 #include "app_idle_task.h"
-#include "osal/osal.h"
 #include "peripheral/nvm/plib_nvm.h"
+#include "osal/osal.h"
 #include "app.h"
 
 

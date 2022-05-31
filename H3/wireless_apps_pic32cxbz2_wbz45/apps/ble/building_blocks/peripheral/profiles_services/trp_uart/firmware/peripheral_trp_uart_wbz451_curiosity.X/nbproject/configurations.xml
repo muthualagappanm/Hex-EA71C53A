@@ -372,26 +372,7 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
-      <logicalFolder name="f2" displayName="default.mhc" projectFiles="true">
-        <itemPath>../src/config/default/default.mhc/cmsis.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/core.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/evsys.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/FreeRTOS.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/HarmonyCore.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/libBLEStack.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/nvm.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/pdsSystem.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/pic32cx_bz2_devsupport.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/profileBLE_TRP.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/project.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/sercom0.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/settings.yml</itemPath>
-        <itemPath>../src/config/default/default.mhc/svcBLE_TRS.yml</itemPath>
-      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/default/harmony-manifest-success.yml</itemPath>
       <itemPath>peripheral_trp_uart_wbz451_curiosity.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>
@@ -472,13 +453,14 @@
       <C32>
         <property key="additional-warnings" value="true"/>
         <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="enable-app-io" value="false"/>
         <property key="enable-omit-frame-pointer" value="false"/>
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="..\src\app_ble;..\src\config\default\ble\lib\include;..\src\config\default\ble\middleware_ble;..\src\config\default\driver\pds\include;..\src\config\default\ble\profile_ble;..\src\config\default\ble\service_ble;../src;../src/config/default;../src/packs/WBZ451_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F"/>
+                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ451_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F;..\src\app_ble;..\src\config\default\ble\lib\include;..\src\config\default\ble\middleware_ble;..\src\config\default\ble\profile_ble;..\src\config\default\ble\service_ble;..\src\config\default\driver\pds\include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -528,6 +510,7 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>
@@ -567,6 +550,7 @@
       <C32CPP>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="check-new" value="false"/>
         <property key="eh-specs" value="true"/>
         <property key="enable-app-io" value="false"/>
@@ -576,7 +560,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/packs/WBZ451_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F"/>
+                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ451_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -595,6 +579,7 @@
         <property key="use-indirect-calls" value="false"/>
       </C32CPP>
       <C32Global>
+        <property key="appendMe" value=""/>
         <property key="common-include-directories" value=""/>
         <property key="gp-relative-option" value=""/>
         <property key="legacy-libc" value="false"/>

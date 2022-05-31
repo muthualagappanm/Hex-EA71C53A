@@ -1474,38 +1474,11 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
-      <logicalFolder name="f1"
-                     displayName="BZ_Prov_MultiSensor_wbz451_curiosity.mhc"
-                     projectFiles="true">
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/bz_prov.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/cmsis.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/core.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/evsys.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/FreeRTOS.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/HarmonyCore.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/libBLEStack.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/lib_crypto.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/lib_wolfcrypt.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/nvm.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/pdsSystem.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/pic32cx_bz2_devsupport.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/profileBLE_TRP.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/project.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/rtc.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/settings.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/svcBLE_TRS.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/tcc2.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/trng.yml</itemPath>
-        <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/BZ_Prov_MultiSensor_wbz451_curiosity.mhc/ZIGBEE_MULTI_SENSOR.yml</itemPath>
-      </logicalFolder>
       <logicalFolder name="f2" displayName="wolfcrypt" projectFiles="true">
         <itemPath>../src/third_party/wolfssl/wolfssl/wolfcrypt/src/misc.c</itemPath>
         <itemPath>../src/third_party/wolfssl/wolfssl/wolfcrypt/src/evp.c</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/harmony-manifest-success.yml</itemPath>
       <itemPath>BZ_Prov_MultiSensor_wbz451_curiosity.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>
@@ -1522,12 +1495,12 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>pkob4hybrid</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>3.01</languageToolchainVersion>
+        <languageToolchainVersion>4.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
         <pack name="PIC32CX-BZ_DFP" vendor="Microchip" version="1.0.80"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -1563,13 +1536,15 @@
       <C32>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe"
+                  value="-include&quot;zigbee_device/configs/Zigbee_AllDevice_Makerules.h&quot;"/>
         <property key="enable-app-io" value="false"/>
         <property key="enable-omit-frame-pointer" value="false"/>
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="..\src\app_ble;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\ble\lib\include;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\ble\middleware_ble;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\driver\pds\include;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\ble\profile_ble;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\ble\service_ble;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/zigbee/lib/include;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/zigbee;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/zigbee/configs;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/peripheral;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/driver/pds/include;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/crypto;../src;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity;../src/packs/WBZ451_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;../src/third_party/wolfssl;../src/third_party/wolfssl/wolfssl;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F"/>
+                  value="../src;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/crypto;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/driver/pds/include;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/peripheral;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/zigbee;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/zigbee/configs;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity/zigbee/lib/include;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ451_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F;../src/third_party/wolfssl;../src/third_party/wolfssl/wolfssl;..\src\app_ble;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\ble\lib\include;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\ble\middleware_ble;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\ble\profile_ble;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\ble\service_ble;..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\driver\pds\include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="false"/>
@@ -1579,7 +1554,7 @@
         <property key="post-instruction-scheduling" value="default"/>
         <property key="pre-instruction-scheduling" value="default"/>
         <property key="preprocessor-macros"
-                  value="_PIC32CX_;PIC32CX_CHIP_SOC;PIC32CX_CHIP_SOC;_PIC32CX_;_USE_LIB_;_SUPER_SET_LIB_;HAL_USE_FLASH_ACCESS;Z3DEVICE_APP;HAVE_CONFIG_H;WOLFSSL_IGNORE_FILE_WARN"/>
+                  value="HAL_USE_FLASH_ACCESS;HAVE_CONFIG_H;PIC32CX_CHIP_SOC;WOLFSSL_IGNORE_FILE_WARN;Z3DEVICE_APP;_PIC32CX_;_SUPER_SET_LIB_;_USE_LIB_"/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
         <property key="tentative-definitions" value="-fcommon"/>
@@ -1621,6 +1596,7 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>
@@ -1660,6 +1636,7 @@
       <C32CPP>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
+        <property key="appendMe" value=""/>
         <property key="check-new" value="false"/>
         <property key="eh-specs" value="true"/>
         <property key="enable-app-io" value="false"/>
@@ -1669,7 +1646,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity;../src/packs/WBZ451_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F"/>
+                  value="../src;../src/config/BZ_Prov_MultiSensor_wbz451_curiosity;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/WBZ451_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/ARM_CM4F"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -1688,6 +1665,7 @@
         <property key="use-indirect-calls" value="false"/>
       </C32CPP>
       <C32Global>
+        <property key="appendMe" value=""/>
         <property key="common-include-directories" value=""/>
         <property key="gp-relative-option" value=""/>
         <property key="legacy-libc" value="false"/>
@@ -1784,6 +1762,8 @@
         <property key="communication.interface" value="swd"/>
         <property key="communication.interface.jtag" value="2wire"/>
         <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.simultaneous.debug" value="false"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
         <property key="freeze.timers" value="false"/>
@@ -1821,6 +1801,7 @@
         <property key="programoptions.preserveprogramrange.end" value="0x1d003fff"/>
         <property key="programoptions.preserveprogramrange.start" value="0x1d000000"/>
         <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.program.otpconfig" value="false"/>
         <property key="programoptions.programcalmem" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
@@ -1843,6 +1824,8 @@
         <property key="communication.interface" value="swd"/>
         <property key="communication.interface.jtag" value="2wire"/>
         <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.simultaneous.debug" value="false"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
         <property key="freeze.timers" value="false"/>
@@ -1859,7 +1842,6 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="1000000-10fffff"/>
-        <property key="memories.rww" value="true"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
@@ -1872,6 +1854,7 @@
         <property key="programoptions.preserveprogram.ranges" value=""/>
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.program.otpconfig" value="false"/>
         <property key="programoptions.programcalmem" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>

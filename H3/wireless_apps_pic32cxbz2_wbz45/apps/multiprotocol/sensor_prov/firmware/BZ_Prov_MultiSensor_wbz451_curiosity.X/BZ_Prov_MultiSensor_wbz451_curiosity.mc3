@@ -1,4 +1,4 @@
-<config configName="BZ_Prov_MultiSensor_wbz451_curiosity" projectName="BZ_Prov_MultiSensor_wbz451_curiosity" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.3.3">
+<config configName="BZ_Prov_MultiSensor_wbz451_curiosity" projectName="BZ_Prov_MultiSensor_wbz451_curiosity" configVersion="1.1" device="WBZ451" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -79,7 +79,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1690,7 +1690,7 @@
         &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;lib_wolfcrypt&quot; x=&quot;432&quot; y=&quot;380&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;nvm&quot; x=&quot;30&quot; y=&quot;80&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;12&quot; id=&quot;pdsSystem&quot; x=&quot;153&quot; y=&quot;128&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;13&quot; id=&quot;pic32cx_bz2_devsupport&quot; x=&quot;504&quot; y=&quot;171&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;13&quot; id=&quot;pic32cx_bz2_devsupport&quot; x=&quot;505&quot; y=&quot;237&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;14&quot; id=&quot;profileBLE_TRP&quot; x=&quot;580&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;15&quot; id=&quot;rtc&quot; x=&quot;30&quot; y=&quot;260&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;16&quot; id=&quot;svcBLE_TRS&quot; x=&quot;170&quot; y=&quot;60&quot;/&gt;
@@ -5449,7 +5449,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\types.h</file>
-         <hash>505233e313d79ecc0845fc65c083e261c3b38177d5b2daf16cd271ca8cb3321c</hash>
+         <hash>eb1d62cdb2b2480abb2acf7168a57e93000347feb18aa2f6cb162cbfb89a655e</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\dh.c</file>
@@ -5497,7 +5497,7 @@
       </entry>
       <entry>
          <file>..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\peripheral\clk\plib_clk.c</file>
-         <hash>216f3315b9cd228ed06b5ff2b2221d346e45c4bcbd8fc3d0e055a2d890b61959</hash>
+         <hash>536680b096e29d2166a5c7c1e0b1c89de0d20e7fa14c9d2f0a4d8047f0e761f0</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\port\pic32\crypt_rng_sam6334.c</file>
@@ -6129,7 +6129,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\ecc.h</file>
-         <hash>6675a017bcdb4ff8ff036942e59b3906d0db717dc793280db4acc9857596c09d</hash>
+         <hash>de7569f8a84494e2a0255405c7ea078831b43bc910c59e43bbe108271b7d7009</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\md2.h</file>
@@ -7361,7 +7361,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\settings.h</file>
-         <hash>0131d22c9c73278c8123f7efcadf514e85ccb95cd61dbe7a40976de10800b2d0</hash>
+         <hash>86a92896cc09608435ffe0d78f4aa3421fb5f19a5675761070d1e9c85ad22de8</hash>
       </entry>
       <entry>
          <file>..\src\packs\WBZ451_DFP\component\eic.h</file>
@@ -8581,7 +8581,7 @@
       </entry>
       <entry>
          <file>..\src\config\BZ_Prov_MultiSensor_wbz451_curiosity\startup_xc32.c</file>
-         <hash>4925c57b172987921a52aa8b0c1ce442b8743e2376df3e7d356d45d2a11c18f9</hash>
+         <hash>2605492040cd0f0a67581a3e23e854cc2660fd2ba4abcb0f4568af8b4371526a</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\port\pic32\crypt_sha1_sam11105.c</file>
@@ -8881,7 +8881,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\ecc.c</file>
-         <hash>5c6bf27ad4e4ca225d13a6418c1eaaee7a6e7a7a2fa6779a073b556474c882bf</hash>
+         <hash>830b4458643d6fa4a1fe9aafba00c1bd4a40a1ea22ed9be85e26c84335364276</hash>
       </entry>
       <entry>
          <file>..\src\third_party\wolfssl\wolfssl\wolfcrypt\src\curve25519.c</file>
