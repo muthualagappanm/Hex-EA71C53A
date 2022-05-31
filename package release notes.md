@@ -2,7 +2,7 @@ Early Adopter Package Release Notes
    
 ## EA3 Release Package(BLE + Zigbee Support):  
 
-### current version 3.3 (04/28/2022)
+### current version 3.3 (05/21/2022)
 
 Changes since last Early Adopter package releases
 
