@@ -16,6 +16,9 @@ git clone https://github.com/MicrochipTech/EA71C53A.git
 
 **Note 1** - Users **must** clone this repository in the root directory (maximum 1 level/folder deep), for example C:/<folder_name> (folder_name should not exceed 4 letters)
 
+For example: Lets assume "chim" is the name of the folder chosen by user. Windows users can go to the folder, right click and open git bash
+![](media/gitclone.PNG)
+
 **Note 2** - Users **must** clone using git command line tool, Users **should not** download and extract the package as a zip folder.
 
 | Note 1 and 2 are added to avoid a known issue of Maximum File Path, see [here](https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=cmd) for more information |

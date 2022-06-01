@@ -21,9 +21,9 @@ WBZ451 Curiosity Board comes pre-programmed with a Concurrent Multiprotocol (BLE
 
 1. MPLABx IDE - Available in [IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
 2. XC32 Compiler – Available in [Compiler](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
-3. **Caution** Check if Kit Update required - [Kit Update](Documentation/Updating%20WBZ451%20Curiosity%20board%20Kit%20Info%20to%20work%20with%20MPLAB%20x%20IDE.pdf)
 3. MPLAB Code Configurator and Development Environment Setup for PIC32CX-BZ/WBZ45x – Instructions available in [PIC32CX-BZWBZ45x SDK Setup.pdf](Documentation/PIC32CX-BZWBZ45x%20SDK%20Setup.pdf)
-4. Application Examples – Instructions to build and program an application example available in [PIC32CX-BZWBZ45x SDK Setup.pdf](Documentation/PIC32CX-BZWBZ45x%20SDK%20Setup.pdf)
+4. **Caution** Check if Kit Update required - [Kit Update](Documentation/Updating%20WBZ451%20Curiosity%20board%20Kit%20Info%20to%20work%20with%20MPLAB%20x%20IDE.pdf)
+5. Application Examples – Instructions to build and program an application example available in [PIC32CX-BZWBZ45x SDK Setup.pdf](Documentation/PIC32CX-BZWBZ45x%20SDK%20Setup.pdf)
 	- **BLE**
 
 		- [BLE Advanced Applications](H3/wireless_apps_pic32cxbz2_wbz45/apps/ble/advanced_applications/ble_uart_demo)
@@ -72,6 +72,6 @@ WBZ451 Curiosity Board comes pre-programmed with a Concurrent Multiprotocol (BLE
 
 ### Migrating from EA3.1.x to EA3.3 Package
 
-- [Migration Guide](Documentation/Migration%20Guide_EA3_1_x%20package%20to%20EA3_2%20package.pdf)
+- [Migration Guide](Documentation/Migration%20Guide_EA3_1_x%20package%20to%20EA3_3%20package.pdf)
 
 Copyright © 2022 Microchip Technology.
