@@ -1,2 +1,0 @@
-    
-    zigbee_init();
