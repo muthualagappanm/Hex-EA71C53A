@@ -2,9 +2,9 @@
 	"metaDataVersion": "1.0.0",
 	"category": "com.microchip.hex.project",
 	"content": {
-		"metaDataVersion": "1.0.3",
+		"metaDataVersion": "1.0.0",
 		"name": "com.microchip.mcu32.mplabx.project.hex-test-EA71C53A.ble_sensor_app",
-		"version": "4.6.6",
+		"version": "4.6.5",
 		"displayName": "Test Hex Project - BLE Sensor App - EA71C53A",
 		"projectName": "Test Hex Project - BLE Sensor App - EA71C53A",
 		"shortDescription": "BLE Sensor App",
