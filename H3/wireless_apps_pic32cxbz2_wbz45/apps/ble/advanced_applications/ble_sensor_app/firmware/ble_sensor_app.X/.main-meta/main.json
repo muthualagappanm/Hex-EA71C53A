@@ -19,7 +19,7 @@
 		},
         "board": {
 			"metaDataVersion": "1.0.0",
-			"category": "com.microchip.portal.contentRef",
+			"category": "com.microchip.portal.boardRef",
 			"content": {
 				"metaDataVersion": "1.0.0",
 				"category": "com.microchip.board",
