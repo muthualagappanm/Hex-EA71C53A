@@ -6,7 +6,6 @@
 		"name": "com.microchip.mcu32.mplabx.project.hex-test-EA71C53A.ble_sensor_app",
 		"version": "4.6.5",
 		"displayName": "Test Hex Project - BLE Sensor App - EA71C53A",
-		"projectName": "Test Hex Project - BLE Sensor App - EA71C53A",
 		"shortDescription": "BLE Sensor App",
 		"device": {
 			"metaDataVersion": "1.0.0",
@@ -29,9 +28,6 @@
 			}
 		},
 		"author": "Microchip",
-		"peripherals": [
-			"BLE"
-		],
 		"keywords": [
 			"BLE",
             "wireless"
