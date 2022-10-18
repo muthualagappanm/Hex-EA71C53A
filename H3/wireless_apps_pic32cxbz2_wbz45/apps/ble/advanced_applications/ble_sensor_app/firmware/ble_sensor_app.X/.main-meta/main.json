@@ -25,7 +25,7 @@
 				"metaDataVersion": "1.0.0",
 				"category": "com.microchip.board",
 				"name": "WBZ451_CURIOSITY_BOARD",
-				"versionRange": "*"
+				"versions": "*"
 			}
 		},
 		"author": "Microchip",
