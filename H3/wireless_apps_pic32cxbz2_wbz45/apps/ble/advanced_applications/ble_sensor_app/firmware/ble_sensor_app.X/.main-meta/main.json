@@ -4,7 +4,7 @@
 	"content": {
 		"metaDataVersion": "1.0.0",
 		"name": "com.microchip.mcu32.mplabx.project.hex-test-EA71C53A.ble_sensor_app",
-		"version": "4.6.5",
+		"version": "4.6.6",
 		"displayName": "Test Hex Project - BLE Sensor App - EA71C53A",
 		"shortDescription": "BLE Sensor App",
 		"device": {
@@ -38,8 +38,8 @@
 				"category": "com.microchip.portal.fileRef",
 				"content": {
 					"metaDataVersion": "1.0.0",
-					"fileName": "./../../readme.md",
-					"mimeType": "text/markdown"
+					"fileName": "https://microchip-mplab-harmony.github.io/quick_docs/",
+                    "mimeType": "text/html"
 				}
 			},
 			"hexFileNamePath": "./../../precompiled_hex/ble_sensor_app.X.production.hex"
